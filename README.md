@@ -8,3 +8,6 @@
  - Then it generates C-style shellcode using Metasploit-Framework's msfvenom.It will be XOR encoded multiple times using Metasploit's preincluded xor encoders,this helps defeat file-signing detection that is being used by antivirus software.
  - It uses a python script that after it will be executed it will inject the C-style shellcode into memory.
  - After it uses PyInstaller in Wine to make the .py an executable (.exe) it will setup a listener on msfconsole,so when our victim executes our Trojan Horse it will handle our meterpreter session.
+
+# I've made a video tutorial for this technique,you can check it out here :shipit: -> 
+[![A skid's channel](https://img.youtube.com/vi/w4BuXu344mU/0.jpg)](https://www.youtube.com/watch?v=w4BuXu344mU)
